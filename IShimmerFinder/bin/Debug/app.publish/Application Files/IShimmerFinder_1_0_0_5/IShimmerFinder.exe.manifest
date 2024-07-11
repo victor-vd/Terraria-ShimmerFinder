@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="IShimmerFinder.exe" version="1.0.0.5" publicKeyToken="1056689d78443914" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="pixelArt.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="IShimmerFinder" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="IShimmerFinder.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet version="1" class="System.Security.NamedPermissionSet" Name="LocalIntranet" Description="Default rights given to applications on the local intranet" Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!-- UAC Manifest Options
+             If you want to change the Windows User Account Control level replace the 
+             requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+            Specifying requestedExecutionLevel element will disable file and registry virtualization. 
+            Remove this element if your application requires this virtualization for backwards
+            compatibility.
+        -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="IShimmerFinder.exe" size="828384">
+      <assemblyIdentity name="IShimmerFinder" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>2k4DcBAS+q88AeZlRPKUL/emGIs1katmWdxlJ5g6/80=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="IShimmerFinder.exe.config" size="579">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>sQe165jOa5Q/ePCZZXxwowy8eWsSot56/7Bsll0TZoY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="pixelArt.ico" size="158838">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>80kXs/9WQdSO9iAUq4YkzgsHMm44u3bRcjQHyXnND5Q=</dsig:DigestValue>
+    </hash>
+  </file>
+  <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+    <application>
+      <!-- A list of the Windows versions that this application has been tested on
+           and is designed to work with. Uncomment the appropriate elements
+           and Windows will automatically select the most compatible environment. -->
+      <!-- Windows Vista -->
+      <!--<supportedOS Id="{e2011457-1546-43c5-a5fe-008deee3d3f0}" />-->
+      <!-- Windows 7 -->
+      <!--<supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}" />-->
+      <!-- Windows 8 -->
+      <!--<supportedOS Id="{4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38}" />-->
+      <!-- Windows 8.1 -->
+      <!--<supportedOS Id="{1f676c76-80e1-4239-95bb-83d0f6d0da78}" />-->
+      <!-- Windows 10 -->
+      <!--<supportedOS Id="{8e0f7a12-bfb3-4fe8-b9a5-48fd50a15a9a}" />-->
+    </application>
+  </compatibility>
+<publisherIdentity name="CN=DESKTOP-5GSHNFK\victo" issuerKeyHash="5dea6af1a38059651a8a551726ab91b681545a06" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>/pelhHdJH3Bm4z6OWpCm7fXEkIdlqJSb7XUvXzvuBtY=</DigestValue></Reference></SignedInfo><SignatureValue>JAI7d+yP/kDdqxs3RApAM7fnQcWk18l20HCN1hiJ+Lai6DG/4QSkktoiqiGUYOlLvUYjKIq8ivxRH7EYtPDkr1GHzAaIiHELlAVn4AlvpKuSRjrfqyATm083+TdoCG0b88r4fXtbENyxpFbHZXdVrAzKzJvNIHRYZ2cKsgmXGbg=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>wSDTMlt2R/RNYBDF8PjcWNluF0n4BoAJsOcR3X6UIcSKToKfD0u4VXg3agURxjC6NkmvrDX7W95dIlQ0UkxghVxtCZARBD0eKQIa1fJQBXeVLnmXF2t0OXgbYxeDf4ggoIsBTp76ot59tvwaXLoqFBJoUyZPKcSqXtsdaMeU8o0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="d606ee3b5f2f75ed9b94a8658790c4f5eda6905a8e3ee366701f497784a597fe" Description="" Url=""><as:assemblyIdentity name="IShimmerFinder.exe" version="1.0.0.5" publicKeyToken="1056689d78443914" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-5GSHNFK\victo</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>a+4aBXGjndFESotIBctqIXG63c7O4by/tdgCj4zd5Hk=</DigestValue></Reference></SignedInfo><SignatureValue>EQdxZ6M+uVXACL6sIQTTxyHxiN6ppAoglDEbLiETBCWYGPLHhikm5gV1EONkb63BmjU+ddR/A6/2f5kgB8oaOHjgN9ZeiZlhfRHndyy9Qdckzy40UPKt3B1L9Gam+di1Pyo1BL71WdAAZ7mKW2BDDrX12oIFkf6os00/BhWWsr0=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>wSDTMlt2R/RNYBDF8PjcWNluF0n4BoAJsOcR3X6UIcSKToKfD0u4VXg3agURxjC6NkmvrDX7W95dIlQ0UkxghVxtCZARBD0eKQIa1fJQBXeVLnmXF2t0OXgbYxeDf4ggoIsBTp76ot59tvwaXLoqFBJoUyZPKcSqXtsdaMeU8o0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQQ0jYnx0qC4xPNY5R+TNi9jANBgkqhkiG9w0BAQsFADA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtADUARwBTAEgATgBGAEsAXAB2AGkAYwB0AG8wHhcNMjQwNjE1MjMwMDUyWhcNMjUwNjE2MDUwMDUyWjA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtADUARwBTAEgATgBGAEsAXAB2AGkAYwB0AG8wgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAMEg0zJbdkf0TWAQxfD43FjZbhdJ+AaACbDnEd1+lCHEik6Cnw9LuFV4N2oFEcYwujZJr6w1+1veXSJUNFJMYIVcbQmQEQQ9HikCGtXyUAV3lS55lxdrdDl4G2MXg3+IIKCLAU6e+qLefbb8Gly6KhQSaFMmTynEql7bHWjHlPKNAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAgvxRN3DQDbsLCn8hoqarV2fFqSAJvd5krDHNmACUzNNHxSxLDOlUzMBZXgyohtD0jMrOh0rXRcm6QWXATilMMcMp81pkkGLE7YP76NnUW+fh5zx8GvZXvvoUbsw0WE3PUPYofHI+DE5vIfAO/QcbPI2c/MchT8+/0HU9QF7icjE=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
