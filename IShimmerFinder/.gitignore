@@ -1,0 +1,10 @@
+.vs/
+bin/
+obj/
+App.config
+Properties/
+IMessage.resx
+IShimmerFinder.csproj.user
+IShimmerFinder.resx
+IShimmerFinder_1_TemporaryKey.pfx
+IShimmerFinder_TemporaryKey.pfx
