@@ -5,6 +5,7 @@ Properties/
 
 *.config
 *.csproj
+*.csproj.user
 *.Designer.cs
 *.pfx
 *.resx
